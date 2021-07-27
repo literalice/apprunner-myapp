@@ -3,7 +3,7 @@ runtime: nodejs12
 build:
   commands:
     build:
-    npm install
+    - npm install
 run:
   command: node myapp/app.js
   network:
